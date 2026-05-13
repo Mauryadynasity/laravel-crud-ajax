@@ -1,0 +1,27 @@
+.field {
+    position: relative;
+    padding: 5px;
+}
+
+.edit-icon {
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    cursor: pointer;
+}
+
+.field:hover .edit-icon {
+    display: inline;
+}
+
+.edit-input {
+    display: none;
+    width: 100%;
+}
+
+.logout-btn {
+    background: red;
+    color: white;
+    padding: 6px 12px;
+}
